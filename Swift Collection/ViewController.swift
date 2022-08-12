@@ -8,9 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    
     @IBOutlet weak var getStartedBtn: UIButton!
-    
     @IBOutlet weak var loginBtn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,9 +17,7 @@ class ViewController: UIViewController {
         loginBtn.layer.cornerRadius = 8
     }
 
-
 }
-
 
 extension UIView {
     @IBInspectable var cornerRadius: CGFloat {

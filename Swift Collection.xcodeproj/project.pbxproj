@@ -12,6 +12,8 @@
 		6F1F2BF028A5134A00F6BE1E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1F2BEF28A5134A00F6BE1E /* FirebaseAuth */; };
 		6F1F2BF228A5134A00F6BE1E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6F1F2BF128A5134A00F6BE1E /* FirebaseFirestore */; };
 		6F1F2BF428A514EF00F6BE1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F1F2BF328A514EF00F6BE1E /* GoogleService-Info.plist */; };
+		6F7BCCA528A62485006F6F28 /* LoginValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BCCA428A62485006F6F28 /* LoginValidation.swift */; };
+		6F7BCCA728A62939006F6F28 /* LoginTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F7BCCA628A62939006F6F28 /* LoginTest.swift */; };
 		6FB57D8E28A3820000F2228C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB57D8D28A3820000F2228C /* AppDelegate.swift */; };
 		6FB57D9028A3820000F2228C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB57D8F28A3820000F2228C /* SceneDelegate.swift */; };
 		6FB57D9228A3820000F2228C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB57D9128A3820000F2228C /* ViewController.swift */; };
@@ -53,6 +55,8 @@
 		62DF401BFF2225532C878D05 /* Pods-Swift Collection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Collection.debug.xcconfig"; path = "Target Support Files/Pods-Swift Collection/Pods-Swift Collection.debug.xcconfig"; sourceTree = "<group>"; };
 		6F1F2BEC28A50FC200F6BE1E /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		6F1F2BF328A514EF00F6BE1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6F7BCCA428A62485006F6F28 /* LoginValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginValidation.swift; sourceTree = "<group>"; };
+		6F7BCCA628A62939006F6F28 /* LoginTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTest.swift; sourceTree = "<group>"; };
 		6FB57D8A28A3820000F2228C /* Swift Collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Collection.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB57D8D28A3820000F2228C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FB57D8F28A3820000F2228C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +135,8 @@
 				6FB57D9128A3820000F2228C /* ViewController.swift */,
 				6FB57D9328A3820000F2228C /* Main.storyboard */,
 				6F1F2BEC28A50FC200F6BE1E /* LoginVC.swift */,
+				6F7BCCA628A62939006F6F28 /* LoginTest.swift */,
+				6F7BCCA428A62485006F6F28 /* LoginValidation.swift */,
 				6FB57DBF28A3BEA700F2228C /* RegisterVC.swift */,
 				6FB57D9628A3820200F2228C /* Assets.xcassets */,
 				6FB57D9828A3820200F2228C /* LaunchScreen.storyboard */,
@@ -343,8 +349,7 @@
 		};
 		6FB57DBE28A3AD6500F2228C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 8;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -355,9 +360,9 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\n";
+			shellScript = " \"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		DEEBFE41BC174968F2343B24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -414,6 +419,7 @@
 				6FB57DC028A3BEA700F2228C /* RegisterVC.swift in Sources */,
 				6FB57D8E28A3820000F2228C /* AppDelegate.swift in Sources */,
 				6FB57D9028A3820000F2228C /* SceneDelegate.swift in Sources */,
+				6F7BCCA528A62485006F6F28 /* LoginValidation.swift in Sources */,
 				6F1F2BED28A50FC200F6BE1E /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FB57DA528A3820200F2228C /* Swift_CollectionTests.swift in Sources */,
+				6F7BCCA728A62939006F6F28 /* LoginTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
