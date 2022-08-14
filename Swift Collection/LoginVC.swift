@@ -22,14 +22,15 @@ class LoginVC: UIViewController {
        setupUI()
     }
     @IBAction func loginPressed(_ sender: UIButton) {
-        _ = loginValidation.validation(email: emailTF.text!, password: passwordTF.text!)
-        if let email = emailTF.text, let password = passwordTF.text {
-            Auth.auth().signIn(withEmail: email, password: password) { [weak self] _, error in
-                print(self as Any)
-                if let error = error {
-                    print(error.localizedDescription)
-                } else {
-                    print("Login Success")
+        if loginValidation.validation(email: emailTF.text ?? "", password: passwordTF.text ?? "") {
+            if let email = emailTF.text, let password = passwordTF.text {
+                Auth.auth().signIn(withEmail: email, password: password) { [weak self] _, error in
+                    print(self as Any)
+                    if let error = error {
+                        print(error.localizedDescription)
+                    } else {
+                        print("Login Success")
+                    }
                 }
             }
         }
@@ -47,4 +48,17 @@ class LoginVC: UIViewController {
         fbBtn.layer.cornerRadius = 8
     }
 
+}
+extension UIViewController {
+
+    func presentAlertWithTitle(title: String, message: String?, options: String...,
+                               completion: @escaping (Int) -> Void) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        for (index, option) in options.enumerated() {
+            alertController.addAction(UIAlertAction.init(title: option, style: .default, handler: { (_) in
+                completion(index)
+            }))
+        }
+        self.present(alertController, animated: true, completion: nil)
+    }
 }

@@ -135,7 +135,6 @@
 				6FB57D9128A3820000F2228C /* ViewController.swift */,
 				6FB57D9328A3820000F2228C /* Main.storyboard */,
 				6F1F2BEC28A50FC200F6BE1E /* LoginVC.swift */,
-				6F7BCCA628A62939006F6F28 /* LoginTest.swift */,
 				6F7BCCA428A62485006F6F28 /* LoginValidation.swift */,
 				6FB57DBF28A3BEA700F2228C /* RegisterVC.swift */,
 				6FB57D9628A3820200F2228C /* Assets.xcassets */,
@@ -149,6 +148,7 @@
 		6FB57DA328A3820200F2228C /* Swift CollectionTests */ = {
 			isa = PBXGroup;
 			children = (
+				6F7BCCA628A62939006F6F28 /* LoginTest.swift */,
 				6FB57DA428A3820200F2228C /* Swift_CollectionTests.swift */,
 			);
 			path = "Swift CollectionTests";
