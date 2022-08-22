@@ -7,6 +7,7 @@
 
 import XCTest
 @testable import Swift_Collection
+
 class LoginTest: XCTestCase {
 var result = LoginValidation()
     func testEmptyFields() {

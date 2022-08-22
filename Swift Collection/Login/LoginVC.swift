@@ -8,7 +8,11 @@
 import Foundation
 import UIKit
 import Firebase
+
 class LoginVC: UIViewController {
+    let getData = GetData()
+//    var abcd = B(id: "", name: "")
+    var access = AccessControl(id: "12345", name: "Aarish", title: "")
     @IBOutlet weak var loginBtn: UIButton!
     @IBOutlet weak var googleBtn: UIButton!
     @IBOutlet weak var passwordTF: UITextField!
@@ -19,7 +23,15 @@ class LoginVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       setupUI()
+//        print(access.name)
+//        access.name = "Unkown"
+//        print(access.name)
+//        access.showId()
+//        access.title cant access here gives error
+//        getData.getTopAnime { result in
+//            print(result!)
+//        }
+        setupUI()
     }
     @IBAction func loginPressed(_ sender: UIButton) {
         if loginValidation.validation(email: emailTF.text ?? "", password: passwordTF.text ?? "") {
@@ -46,19 +58,5 @@ class LoginVC: UIViewController {
         googleBtn.layer.cornerRadius = 8
         appleBtn.layer.cornerRadius = 8
         fbBtn.layer.cornerRadius = 8
-    }
-
-}
-extension UIViewController {
-
-    func presentAlertWithTitle(title: String, message: String?, options: String...,
-                               completion: @escaping (Int) -> Void) {
-        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        for (index, option) in options.enumerated() {
-            alertController.addAction(UIAlertAction.init(title: option, style: .default, handler: { (_) in
-                completion(index)
-            }))
-        }
-        self.present(alertController, animated: true, completion: nil)
     }
 }

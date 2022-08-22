@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
     @IBOutlet weak var getStartedBtn: UIButton!
     @IBOutlet weak var loginBtn: UIButton!
     override func viewDidLoad() {
@@ -17,16 +17,4 @@ class ViewController: UIViewController {
         loginBtn.layer.cornerRadius = 8
     }
 
-}
-
-extension UIView {
-    @IBInspectable var cornerRadius: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-            layer.masksToBounds = newValue > 0
-        }
-    }
 }

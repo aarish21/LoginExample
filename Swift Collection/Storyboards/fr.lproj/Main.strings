@@ -1,0 +1,84 @@
+
+/* Class = "UILabel"; text = "Create an account"; ObjectID = "0Zl-Ev-u9D"; */
+"0Zl-Ev-u9D.text" = "Créer un compte";
+
+/* Class = "UIButton"; configuration.title = "Login"; ObjectID = "9gy-00-bS5"; */
+"9gy-00-bS5.configuration.title" = "Connexion";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "9gy-00-bS5"; */
+"9gy-00-bS5.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "A1T-eG-nx0"; */
+"A1T-eG-nx0.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Get Started"; ObjectID = "A44-u1-OqE"; */
+"A44-u1-OqE.configuration.title" = "Commencer";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "A44-u1-OqE"; */
+"A44-u1-OqE.normalTitle" = "Button";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "BUj-ER-zAy"; */
+"BUj-ER-zAy.placeholder" = "Email address";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "J11-VH-br5"; */
+"J11-VH-br5.placeholder" = "Password";
+
+/* Class = "UIButton"; configuration.title = "Continue with Google"; ObjectID = "N6N-6d-eWl"; */
+"N6N-6d-eWl.configuration.title" = "Continuer avec Google";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "N6N-6d-eWl"; */
+"N6N-6d-eWl.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Continue with Apple"; ObjectID = "QRh-r6-gx9"; */
+"QRh-r6-gx9.configuration.title" = "Continuer avec Apple";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QRh-r6-gx9"; */
+"QRh-r6-gx9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Welcome Back!"; ObjectID = "Qgc-Si-8xH"; */
+"Qgc-Si-8xH.text" = "Content de te revoir!";
+
+/* Class = "UIButton"; configuration.title = "Continue with Facebook"; ObjectID = "XPN-IQ-kYd"; */
+"XPN-IQ-kYd.configuration.title" = "Continuer avec Facebook";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XPN-IQ-kYd"; */
+"XPN-IQ-kYd.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Hey! Welcome"; ObjectID = "Z9E-e8-pwX"; */
+"Z9E-e8-pwX.text" = "Hé! Accueillir";
+
+/* Class = "UITextField"; placeholder = "Email address"; ObjectID = "b6J-pw-sep"; */
+"b6J-pw-sep.placeholder" = "Email address";
+
+/* Class = "UIButton"; configuration.title = "Create an account"; ObjectID = "boM-Wc-Pih"; */
+"boM-Wc-Pih.configuration.title" = "Créer un compte";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "boM-Wc-Pih"; */
+"boM-Wc-Pih.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "We deliver on-demand organic fresh fruits from your nearby farms"; ObjectID = "eHS-mH-FuY"; */
+"eHS-mH-FuY.text" = "Nous livrons à la demande des fruits frais bio de vos fermes voisines";
+
+/* Class = "UIButton"; configuration.title = "Continue with Facebook"; ObjectID = "ena-Ts-eXZ"; */
+"ena-Ts-eXZ.configuration.title" = "Continuer avec Facebook";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ena-Ts-eXZ"; */
+"ena-Ts-eXZ.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Continue with Google"; ObjectID = "hgX-Mt-hPk"; */
+"hgX-Mt-hPk.configuration.title" = "Continuer avec Google";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "hgX-Mt-hPk"; */
+"hgX-Mt-hPk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Continue with Apple"; ObjectID = "imU-BI-ixW"; */
+"imU-BI-ixW.configuration.title" = "Continuer avec Apple";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "imU-BI-ixW"; */
+"imU-BI-ixW.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "I already have an account."; ObjectID = "ycs-Iw-WsF"; */
+"ycs-Iw-WsF.configuration.title" = "Je ai déjà un compte.";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ycs-Iw-WsF"; */
+"ycs-Iw-WsF.normalTitle" = "Button";
